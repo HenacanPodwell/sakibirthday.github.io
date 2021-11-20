@@ -1,6 +1,6 @@
 window.onload = function() {
-    window.setTimeout(fadeout, 4000); //8 seconds
-    window.setTimeout(removeout, 5000); //8 seconds
+    window.setTimeout(fadeout, 3000); //8 seconds
+    window.setTimeout(removeout, 4000); //8 seconds
   }
   
   function fadeout() {
