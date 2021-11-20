@@ -5,10 +5,10 @@ window.onload = function() {
   
   function fadeout() {
     document.getElementById('loading').style.opacity = '0';
-
   }
 
   function removeout() {
     document.getElementById('loading').style.display = 'none';
+    document.getElementById('content').style.display = 'flex';
     document.getElementById('content').style.opacity = '1';
   }

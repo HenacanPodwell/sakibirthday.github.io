@@ -1,18 +1,19 @@
 body {
-  margin-left:auto;
-  margin-right:auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-direction: column;
     background-color: #f9cdca;
-    display:flex;
-    align-items: center;
-    justify-content: center;
   }
 
 #content{
-    margin-left: 47vw;
-    margin-top:10vh;
+  margin-left:auto;
+  margin-right:auto;
     display:none;
     align-items: center;
     justify-content: center;
+    align-content: space-evenly;
     flex-direction: column;
     opacity: 0;
     transition: 1s opacity;
@@ -20,7 +21,6 @@ body {
 #loading{
     opacity: 1;
     transition: 1s opacity;
-    margin-left: 47vw;
     padding-top:5vh;
     margin-top:30vh;
 }
