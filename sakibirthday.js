@@ -5,7 +5,7 @@ window.onload = function() {
   
   function fadeout() {
     document.getElementById('loading').style.opacity = '0';
-    document.getElementById('content').style.display = 'flex';
+
   }
 
   function removeout() {
