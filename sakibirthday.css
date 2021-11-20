@@ -2,6 +2,9 @@ body {
   margin-left:auto;
   margin-right:auto;
     background-color: #f9cdca;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
 
 #content{
