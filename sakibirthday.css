@@ -8,6 +8,8 @@ body {
   }
 
 #content{
+    margin-left: 47vw;
+    margin-top:10vh;
     display:none;
     align-items: center;
     justify-content: center;
